@@ -57,19 +57,34 @@ Pré-requisitos
 
  Passos
 
-1. Clone o repositório:
+ Backend (Node.js)
+Acesse a pasta do backend:
+cd ecomerce_teste
 
-git clone https://github.com/zartur01/teste_est-gio.git
-cd teste_est-gio
 
-2. Instale as dependências:
+Instale as dependências:
+npm install
 
+
+Inicie o servidor:
+npm start
+
+
+A API estará disponível em:
+http://localhost:3000
+
+Frontend (Flutter)
+Acesse a pasta do frontend:
+cd ecommerce_teste
+
+
+Instale as dependências:
 flutter pub get
 
-3.Inicie o servidor
 
-node app.js
+Execute o aplicativo:
+flutter run
 
-4.Inicie o Flutter
+Importante:
+Certifique-se de que um emulador ou dispositivo físico está conectado para rodar o app corretamente.
 
-flutter run -d chromeAdd commentMore actions
